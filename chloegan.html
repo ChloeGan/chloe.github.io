@@ -1,0 +1,141 @@
+<!DOCTYPE html><html lang=en>
+<head>
+  <meta charset=utf-8>
+  <meta http-equiv=x-ua-compatible content="ie=edge">
+  <meta name=viewport content="width=device-width,initial-scale=1">
+  <meta property=og:title content="Chloe WS Gan">
+  <meta property=og:description content="Chloe Gan's Portfolio">
+  <meta property=og:url content=https://www.chloegan.com>
+  <meta property=og:site_name content="Chloe WS Gan">
+  <meta name=twitter:card content=summary_large_image>
+
+  <title>Chloe WS Gan</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Alike+Angular" />
+
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine" />
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Amatic+SC" />
+<link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Roboto:300,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Cardo:400,700|Oswald" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:300" rel="stylesheet">
+
+  <link href ="style.css" rel="stylesheet" type="text/css"/>
+  <script src="js/jquery-2.1.0.min.js"> </script>
+  <script src="js/chloe-about.js"></script>
+
+
+</head>
+
+<html>
+<body>
+<div id="first-container">
+
+  <div id="menu">
+
+    <div id="menu-one">
+        <ul id="menubar-one">
+          <li><a class="not-current" href = "work.html"> Work   </a></li>
+          <li><a class="not-current" href = "resume.pdf"> Resume   </a></li>
+        </ul>
+    </div>
+
+
+<div id="menu-two">
+    <ul id="menubar-two">
+      <li><a class="current" href = "chloegan.html"> Chloe G   </a></li>
+    </ul>
+</div>
+
+<div id="menu-three">
+    <ul id="menubar-three">
+      <li><a class="not-current" href = "not-work.html"> &lt; /Work  &gt;  </a></li>
+      <li><a class="not-current" href = "about.html"> About Me    </a></li>
+    </ul>
+</div>
+
+  </div>
+
+  <div id="main">
+    <p id="main-text"> I'm a Business Analyst, and an aspiring Web Developer based in Kuala Lumpur, Malaysia.</p>
+    <hr id="main-text" size="0.7">
+
+   <a id="main-text" class="small" href = "#second-container"> [Hello]   </a>
+  </div>
+
+
+
+
+</div>
+
+<div id="second-container">
+
+  <div id="profile-pic">
+    <img id="chloepic" src ="selfie.jpg" alt ="picture">
+  </div>
+
+  <div id=description>
+    <h1 > Hello. </h1>
+    <p class="description"> I am a minimalist, an adventurer and a passionate learner about everything in life.   </p>
+    <p class="description"> I have always been a creative art/social science girl. During my senior year in college (Year 2017), I stumbled upon my new-found passion in web-developing.  </p>
+    <p class="description"> Professionally, I help with designing business solutions for clients. Outside my work, I immerse myself in between the lines of CSS-fun by the coffee table. </p>
+
+    <a class="description" href = "#not-work.html"> [Let me tell you more]   </a>
+  </div>
+</div>
+
+<div id="third-container">
+
+<div id ="contact">
+
+
+    <div id="contact-center">
+
+      <p class="notwork-email"> <a class="notwork-email-description" href="mailto:woonshenn@gmail.com" class="email"><span style="background-color: #e6ffee"> woonshenn [add] gmail [dot] com </span></a> </p>
+      <br> <hr size="0.7">
+      <p class="footer"> &copy; Chloe Gan, 2018 </p>
+      <p class="footer"> &lt;   &gt;Made with Lots of Love and Caffeine in Kuala Lumpur, MY. &lt; / &gt;</p>
+    </div>
+</div>
+
+<div id=menu-bar>
+  <ul id="scrollbar-one">
+    <li><a class="name" href = "#first-container"> Chloe G  </a></li>
+  </ul>
+
+  <ul id="scrollbar-two">
+    <li><a class="scroll-desc" href = "resume.pdf"> Resume  </a></li>
+    <li><a class="scroll-desc" href = "work.html"> Work   </a></li>
+    <li><a class="scroll-desc" href = "about.html"> About Me    </a></li>
+    <li><a class="scroll-desc" href = "not-work.html"> &lt; /Work  &gt;  </a></li>
+
+  </ul>
+
+
+</div>
+
+<script type="text/javascript">
+// When the user scrolls the page, execute myFunction
+window.onscroll = function() {myFunction()};
+
+// Get the navbar
+var navbar = document.getElementById("menu-bar");
+var secdiv = document.getElementById("second-container");
+// Get the offset position of the navbar
+var sticky = secdiv.offsetTop;
+
+// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky");
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+
+</script>
+
+</body>
+
+
+
+</html>
